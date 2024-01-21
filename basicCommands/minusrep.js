@@ -32,7 +32,7 @@ module.exports = {
       .setDescription(`Do you want to take away 1 rep from ${targetUser.username}?`)
       .setColor('#ff0000');
 
-    const responseChannel = message.guild.channels.cache.get('1198514459975630960');
+    const responseChannel = message.guild.channels.cache.get(process.env.channelid);
 
     if (!responseChannel) {
       return message.reply('The specified response channel does not exist.');
