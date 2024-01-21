@@ -1,0 +1,4 @@
+{
+  "prefix": ";",
+  "channelId": "process.env.channelid"
+}
