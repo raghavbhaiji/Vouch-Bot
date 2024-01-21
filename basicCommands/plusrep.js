@@ -34,7 +34,7 @@ module.exports = {
       .setColor('#00ff00');
 
    
-    const responseChannel = message.guild.channels.cache.get('1145728909380440104');
+    const responseChannel = message.guild.channels.cache.get('1198514459975630960');
 
     if (!responseChannel) {
       return message.reply('The specified response channel does not exist.');
