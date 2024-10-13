@@ -37,17 +37,17 @@ module.exports = {
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://www.youtube.com/channel/UCGWGTvUYT_2m4bUlyIDQ0dg')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
+      .setURL('https://discord.gg/RgE2QZfJdF')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/Vouch-Bot-By-RTX?v=1')
+      .setLabel('BUY NITRO')
+      .setURL('https://discord.com/channels/1294571161803423798/1294871054539292742')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
